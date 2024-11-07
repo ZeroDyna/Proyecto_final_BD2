@@ -1,9 +1,11 @@
 #pragma once
 #include<string>
-
+#include <vector>
+#include"Tablas.h"
 class Sector
 {
 	std::string datos;
-	Sector(std::string dat): datos(dat) {}
+	std::vector<Tablas> tablas;
+	Sector(std::string dat, std::vector<Tablas> tab): datos(dat), tablas(tab) {}
 };
 

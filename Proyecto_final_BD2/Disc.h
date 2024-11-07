@@ -1,8 +1,8 @@
 #pragma once
-#include "Sector.h"
+#include"platos.h"
 #include<vector>
 class Disc
 {
-
+	std::vector<Platos> platos;
 };
 

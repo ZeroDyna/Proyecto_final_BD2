@@ -3,6 +3,6 @@
 #include<string>
 class Fila
 {
-	std::vector<>
+	std::string id;
 };
 
